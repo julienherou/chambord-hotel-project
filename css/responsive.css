@@ -1,0 +1,1130 @@
+/* Media Queries*/
+
+
+/* Pour les écrans au dessus de 1920px */
+@media only screen and (min-width:1920px){
+    .background-image h1{
+        font-size: 15rem;
+        line-height: 16rem;
+    }
+    /* .background-video h1{
+        font-size: 30rem;
+        line-height: 25rem;
+    } */
+    /* .background-video .main-title{
+        margin-top: 16%;
+    } */
+
+    .button-book-hero-video a{
+        padding: 2.4rem 5.9rem;
+        font-size: 2rem;
+    }
+
+    /* BURGER */
+    .burger{
+        width: 18rem;
+    }
+    .burger .bar-1{
+        width: 18rem;
+    }
+    
+    .burger .bar-2{
+        width: 12rem;
+    }
+    
+    .burger .bar-3{
+        width: 6rem;
+    }
+    
+    .burger:hover .bar-1{
+        width: 20rem;
+    }
+    .burger:hover .bar-2{
+        width: 14rem;
+    }
+    .burger:hover .bar-3{
+        width: 8rem;
+    }
+
+    /* .header-right{
+        margin-top: 3rem;
+        margin-right: 3rem;
+    } */
+    .logo a{
+        height: 21rem;
+    }
+    .nav-list-links{
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+    .lien-sst{
+        font-size: 2.5rem;
+    }
+    .bloc-texte-section3 h2 span{
+        font-size: 8rem;
+    }
+
+    /* PAGE ACCUEIL */
+    #main-homepage .bloc-titre-section1{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #main-homepage h2{
+        font-size: 6rem;
+    }
+    #main-homepage .parklanenf{
+        font-size: 10rem;
+    }
+    #main-homepage .cadre-couleur-section1{
+        left: 2rem;
+        top: -1rem;
+        width: 43%;
+        height: 10rem;
+    }
+    /* .section3-haut h2{
+        transform: translate(-50rem, 2rem);
+    } */
+    #main-homepage .section4-title{
+        transform: translateY(-4rem);
+    }
+    #main-homepage .section5 h4{
+        font-size: 2.2rem;
+    }
+
+    /* PAGE CHAMBRE */
+    .span-title-chambres{
+        font-size: 8rem;
+    }
+    /* PAGE RESTAURANT */
+    #main-restaurant h2{
+        font-size: 8rem;
+        line-height: 8rem;
+    }
+    #main-restaurant h2 .parklanenf{
+        font-size: 11rem;
+        line-height: 10rem;
+    }
+    #main-restaurant h3{
+        font-size: 2rem;
+    }
+    #main-restaurant p{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    #plan li a{
+        font-size: 2rem;
+        line-height: 5rem;
+    }
+    #plan h3{
+        font-size: 2.5rem;
+        transform: translateY(-2rem);
+    }
+    #mentions{
+        font-size: 2rem;
+    }
+    .mentions-haut{
+        margin-bottom: 5rem;
+    }
+    .text-ifo{
+        font-size: 1.4rem;
+    }
+
+    #main-spa h2 .upper{
+        font-size: 11rem;
+    }
+    #main-spa h2 .parklanenf {
+        font-size: 12rem;
+    }
+    #main-hotel h2{
+        font-size: 6rem;
+    }
+    #main-hotel h2 .upper{
+        font-size: 7rem;
+    }
+}
+
+/* Pour les écrans en dessous de 1200px de large*/
+@media only screen and (max-width: 1200px){
+    #main-homepage .bloc-titre-section1{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #main-homepage .bloc-texte-section2 p{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .section3-bas .bloc-texte-section3 p{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+
+/*
+    o   o
+     )-(
+    (O O)
+     \=/
+    .-"-.
+   //\ /\\
+ _// / \ \\_
+=./ {,-.} \.=
+    || ||
+    || ||    hjw
+  __|| ||__  `97
+ `---" "---'
+*/
+/* Pour les écrans en dessous de 1024px de large*/
+@media only screen and (max-width: 1024px){
+    .background-image h1{
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+    .background-video h1{
+        font-size: 17vw;
+        line-height: 17vw;
+        letter-spacing: 0;
+    }
+    .background-video .main-title p{
+        font-size: 5rem;
+    }
+
+    .bloc-photo-contact{
+        width: 100%;
+    }
+    .bloc-avis{
+        margin-top: 5rem;
+    }
+    .button-contact a{
+        width: 40rem;
+        font-size: 1.3rem;
+    }
+    #main-homepage .cadre-couleur-section2{
+        bottom: 2rem;
+        left: 10rem;
+        width: 47%;
+        height: 10rem;
+    }
+
+    /* MENTIONS */
+    #mentions{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #mentions ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #mentions ul li{
+        margin: 2rem;
+    }
+    .mentions-bas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .langue{
+        margin-bottom: 5rem;
+    }
+
+}
+
+/*
+                       _           _             
+                      / \_______ /|_\            
+                     /          /_/ \__
+                    /             \_/ /
+                  _|_              |/|_
+                  _|_  O    _    O  _|_
+                  _|_      (_)      _|_
+                   \                 /
+                    _\_____________/_
+                   /  \/  (___)  \/  \
+                   \__(  o     o  )__/
+*/
+
+/* Pour les écrans en dessous de 800px de large*/
+/* Passage en mode colonne */
+@media only screen and (max-width: 800px){
+    /* HEADER */
+    /* FOND IMAGE */
+    .background-image .main-title{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    /* FOND VIDEO */
+    .background-video .main-title{
+        margin: 0;
+        justify-content: center;
+    }
+
+    .button-book-hero-video{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 2rem;
+    }
+    .button-book-hero-video a{
+        padding: 1.7rem 3.7rem;
+        font-size: 1.5rem;
+    }
+
+
+    /* TITRE LOGO BOUTON */
+    .background-image h1{
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+
+    /* BURGER */
+    .burger{
+        width: 9rem;
+    }
+    .burger .bar-1{
+        top: 2rem;
+        transform: translateY(-1.5rem);
+        width: 9rem;
+        height: .2rem;
+        transition: all ease-in-out .7s;
+    }
+    .burger .bar-2{
+        top: 2rem;
+        width: 6rem;
+        height: .2rem;
+        transition: all ease-in-out .8s;
+    }
+    .burger .bar-3{
+        top: 2rem;
+        transform: translateY(1.5rem);
+        width: 3rem;
+        height: .2rem;
+        transition: all ease-in-out .8s;
+    }
+    .burger:hover .bar-1{
+        width: 10rem;
+    }
+    .burger:hover .bar-2{
+        width: 7rem;
+    }
+    .burger:hover .bar-3{
+        width: 4rem;
+    }
+    #burger-toggle:checked ~ .burger{
+        width: 0;
+        height: 0;
+    }
+    #burger-toggle:checked ~ .burger .bar-1{
+        background-color: var(--white);
+        height: .2rem;
+        transform: translateX(calc(100vw - 10rem)) rotate(45deg);
+    }
+    #burger-toggle:checked ~ .burger .bar-2{
+        transform: translateX(calc(100vw - 10rem)) rotate(45deg);
+    }
+    #burger-toggle:checked ~ .burger .bar-3{
+        background-color: var(--white);
+        height: .2rem;
+        transform: translateX(calc(100vw - 10rem)) rotate(-45deg);
+    }
+    .logo a{
+        height: 14rem;
+    }
+    .button-book a{
+        width: 15rem;
+        height: 4rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+        letter-spacing: .2rem;
+    }
+
+    .contain-nav-list{
+        transform: translateX(-100vw);
+        justify-content: flex-start;
+    }
+    .rect-nav-color{ 
+        height: calc(calc(var(--vh, 1vh) * 100) - 8rem);
+        width: 100vw;
+        left: 0;
+    }
+    .nav-right{
+        display: none;
+    }
+    .nav-langue{
+        margin-left: 5rem;
+    }
+
+
+    .cadre-photo{
+        padding: 2rem;
+    }
+
+
+    /* SECTION 1 */
+    .bloc-texte-section1, .bloc-photo-section1{
+        width: 100%;
+    }
+
+    /* SECTION 2 */
+    .bloc-texte-section2, .bloc-photo-section2{
+        width: 100%;
+    }
+    .bloc-texte-section2{
+        align-items: center;
+    }
+
+    .bloc-photo-section2{
+        margin-top: 5rem;
+    }
+    /* SECTION 3 */
+    .bloc-texte-section3, .bloc-photo-section3{
+        width: 100%;
+    }
+    .bloc-photo-section3{
+        margin-top: 5rem;
+    }
+     /* SECTION 4 */
+    .bloc-texte-section4{
+        width: 100%;
+    }
+    .bloc-photo-section4-big{
+        width: 100%;
+    }
+    .bloc-photo-section4-small{
+        width: 70%;
+    }
+    .button-section4{
+        margin-bottom: 5rem;
+    }
+    /* SECTION 5 */
+    .bloc-texte-section5, .bloc-photo-section5{
+        width: 100%;
+    }
+    .bloc-photo-section5{
+        margin-top: 5rem;
+    }
+    /* SECTION 6 */
+    .section6{
+        width: 100%;
+    }
+
+
+    /* PAGE ACCUEIL */
+    #main-homepage .section1{
+        width: 90%;
+    }
+
+    #main-homepage .section1 :nth-child(2){
+        order: 1;
+    }
+    #main-homepage .cadre-couleur-section1{
+        left: 10%;
+        top: -1rem;
+        width: 80%;
+        height: 5rem;
+    }
+
+    #main-homepage .section2{
+        flex-direction: column-reverse;
+    }
+    #main-homepage .cadre-couleur-section2{
+        bottom: -4rem;
+        left: 10%;
+        width: 80%;
+        height: 10rem;
+    }
+    .section3-haut-title{
+        justify-content: center;
+    }
+    .section3-haut h2{
+        transform: translateY(8rem);
+    }
+    .section3-haut .bloc-texte-section3{
+        width: 80%;
+        transform: translateX(0);
+        transform: translateY(8rem);
+    }
+    .section3-haut .bloc-photo-section3{
+        width: 100%;
+        margin: 0;
+    }
+    #main-homepage .section3-bas{
+        margin-left: 0;
+        transform: translateY(0);
+    }
+    .section3-bas .bloc-photo-section3{
+        width: 90%;
+    }
+    .section3-bas .cadre-photo-section3{
+        padding: 5rem;
+    }
+    .section3-bas .bloc-texte-section3{
+        width: 80%;
+    }
+    .section3-bas .bloc-texte-section3 p{
+        padding: 0 5rem;
+    }
+
+
+    #main-homepage .section4{
+        width: 100%;
+    }
+    #main-homepage .section4 h2{
+        transform: translateY(-2rem);
+    }
+    #main-homepage .bloc-texte-section7 p{
+        padding: 0;
+        margin: 0;
+        margin-top: 5rem;
+    }
+    #main-homepage .button a{
+        width: 16rem;
+        height: 4rem;
+        font-size: 1.1rem;
+    }
+
+
+    /* PAGE CHAMBRE */
+    #main-rooms h2 .merriweather{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    #main-rooms h2 .upper{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    #main-rooms .bloc-texte{
+        margin: 0;
+        width: 100%;
+        /* padding: 0 10rem;
+        margin: 0; */
+    }
+    #main-rooms p{
+        padding: 0;
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+    .span-title-chambres{
+        font-size: 5rem;
+    }
+
+
+
+    /* PAGE RESTAURANT */
+    .header-restaurant .background-image h1{
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+    #main-restaurant h2{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    #main-restaurant .button{
+        margin-bottom: 5rem;
+    }
+    #main-restaurant .bloc-texte-section1{
+        padding-right: 0;
+    }
+    #main-restaurant .bloc-texte-section2{
+        padding-top: 5rem;
+        padding-left: 0;
+    }
+
+
+    /* PAGE HOTEL */
+    #main-hotel section{
+        width: 90%;
+    }
+    #main-hotel .bloc-texte{
+        margin: 5rem 0;
+        padding: 0;
+    }
+
+    #main-hotel .bloc-texte p{
+        margin: 5rem 0;
+        padding: 0;
+    }
+
+
+
+    /* FORMULAIRE */
+    .header-form p{
+        width: 80%;
+    }
+
+    .main-form-text-double p,
+    .bloc-calendar p{
+        width: 100%;
+    }
+    .main-form{
+        width: 70%;
+    }
+
+    #contact{
+        width: 100%;
+    }
+    /* NEWSLETTER */
+    /* #newsletter{
+        width: 90%;
+        height: 30rem;
+    } */
+    /* .form-news{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    } */
+    /* .form-email-news{
+        width: 18rem;
+    } */
+
+    /* MENTIONS */
+    .text-ifo{
+        font-size: .6rem;
+    }
+    .line-cut{
+        margin: 5rem;
+    }
+
+}
+
+
+/*
+       _________
+      /___   ___\
+     //@@@\ /@@@\\
+     \\@@@/ \@@@//
+      \___ " ___/
+jrjc     | - |
+          \_/
+*/
+/* Pour les écrans en dessous de 650px de large*/
+@media only screen and (max-width: 650px){
+
+    #newsletter{
+        width: 90%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    #newsletter p{
+        font-size: 1.4rem;
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+    .form-email-news{
+        /* width: 15rem; */
+        width: 50%;
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+    }
+    #email-news{
+        height: 3rem;
+    }
+    #email-news::placeholder{
+        font-size: 1.6rem;
+    }
+    #email-news:focus{
+        font-size: 1.6rem;
+    }
+    .form-button-news{
+        margin-right: 2rem;
+    }
+    .form-button-send-news{
+        width: 13rem;
+        height: 4rem;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+/*
+////\\     //||\\     //\|\\      ///||\
+/`O-O'     ` @ @\     //o o//       a a
+   ]          >        ) | (         _)
+   -          -          -           ~
+ John        Paul      George      Ringo
+*/
+/* Pour les écrans en dessous de 576px de large*/
+@media only screen and (max-width: 576px){
+    /* HEADER */
+    .background-image h1{
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    /* NAV LIST */
+
+    .span-title-chambres{
+        font-size: 4rem;
+    }
+
+    /* ligne de séparation */
+    .line-cut{
+        margin: 0;
+    }
+
+    /* PAGE ACCUEIL */
+    #main-homepage section{
+        width: 100%;
+    }
+
+    #main-homepage h2{
+        font-size: 2.5rem;
+    }
+    #main-homepage .parklanenf{
+        font-size: 4rem;
+    }
+    #main-homepage .bloc-texte p{
+        font-size: 1rem;
+    }
+    #main-homepage .cadre-photo{
+        padding: 2rem;
+    }
+
+    /* PAGE CHAMBRE */
+    #main-rooms h2 .merriweather{
+        font-size: 2.8rem;
+        line-height: 4rem;
+        letter-spacing: .2rem;
+    }
+    #main-rooms h2 .upper{
+        font-size: 4rem;
+        line-height: 4rem;
+        letter-spacing: .4rem;
+    }
+    #main-rooms p{
+        padding: 0;
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+    .span-title-chambres{
+        font-size: 5rem;
+    }
+
+    /* PAGE RESTAURANT */
+    .header-restaurant .background-image h1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    #main-restaurant section{
+    width: 100%;
+    }
+    #main-restaurant .bloc-texte{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    #main-restaurant h2{
+        font-size: 3.5rem;
+    }
+    #main-restaurant h2 .parklanenf{
+        font-size: 5rem;
+    }
+    #main-restaurant p{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    #main-restaurant .button a{
+        width: 20rem;
+        height: 5rem;
+        font-size: 1.3rem;
+    }
+
+
+    /* PAGE HOTEL */
+    #main-hotel section{
+        width: 100%;
+    }
+    #main-hotel .bloc-texte-section7{
+        width: 100%;
+    }
+    #main-hotel .bloc-texte-section7 p{
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        text-align: justify;
+    }
+    #main-hotel .bloc-texte{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    #main-hotel p{
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        text-align: justify;
+    }
+    /* PAGE ACCES */
+    #main-acces .section-form{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #main-acces h2{
+        text-align: center;
+    }
+    #main-acces .header-form{
+        width: 100%;
+    }
+    #main-acces .header-form p{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    /* PAGE ACTU */
+    #main-actualites section{
+        width: 100%;
+    }
+    #main-actualites h2{
+        font-size: 2rem;
+        
+    }
+    #main-actualites h2 .merriweather{
+        letter-spacing: .2rem;
+    }
+    #main-actualites h2 .upper{
+        letter-spacing: .4rem;
+    }
+    #main-actualites h3{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    #main-actualites p{
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+
+
+
+    /* FORMULAIRE */
+    .main-form-button input{
+        width: 25rem;
+        font-size: 1.4rem;
+    }
+    /* SPA */
+    #main-spa h2 .parklanenf{
+        font-size:3rem;
+    }
+    #main-spa h2 .upper{
+        font-size: 2rem;
+    }
+    /* PAGE CONTACT */
+    #main-contact .section-form{
+        width: 100%;
+    }
+    #main-contact .header-form{
+        width: 100%;
+    }
+    #main-contact .header-form h2{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    #main-contact .header-form p{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    #main-contact .main-form{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    /* PAGE ACTU */
+    #main-actualites .button-article a{
+        width: 15rem;
+        height: 5rem;
+        font-size: 1.3rem;
+    }
+
+    .button-contact a{
+        width: 25rem;
+        font-size: .7rem;
+    }
+
+    /* PLAN DU SITE */
+    #plan{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 5rem;
+        
+    }
+    .plan-acces{
+        width: 100%;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .bloc-plan{
+        width: 100%;
+        margin-top: 5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .plan-liens{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .plan-liens ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    /* MENTIONS */
+    #mentions{
+        align-items: flex-start;
+        width: 100%;
+    }
+    #mentions ul li{
+        margin: 2rem 0;
+    }
+    .mentions-haut{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .mentions-bas{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .langue{
+        margin-bottom: 5rem;
+    }
+    .text-ifo{
+        text-align: left;
+    }
+
+
+}
+
+/*
+     ___
+ ___/   \___
+/   '---'   \
+'--_______--'
+     / \
+    /   \
+    /\O/\
+    / | \
+    // \\
+*/
+/* Pour les écrans en dessous de 490px de large*/
+@media only screen and (max-width: 490px){
+    #main-homepage .section1,
+    #main-homepage .section2,
+    #main-homepage .section3,
+    #main-homepage .section4,
+    #main-homepage .section5{
+        width: 100%;
+    }
+    #main-homepage .bloc-texte-section1,
+    #main-homepage .bloc-texte-section2,
+    #main-homepage .bloc-texte-section3,
+    #main-homepage .bloc-texte-section4,
+    #main-homepage .bloc-texte-section5{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #main-homepage .bloc-texte-section3 p{
+        padding: 2rem;
+    }
+    #main-spa section{
+        width: 100%;
+    }
+    #main-spa .bloc-texte{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #main-spa p{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    /* #main-spa h2{
+        margin-top: 5rem;
+    } */
+}
+
+
+
+/*
+        _____                   /|
+        |   \      ____        / |
+  __    |    \    /\   |      /  ;
+ /\  \  |     \  /  \  |     /  ;
+/,'\  \ |      \/  : \ |    /   ;
+~  ;   \|      /   :  \|   /   ;
+   |    \     /   :'  |   /    ;
+   |     \   /    :   |  /    ;
+   |      \ /    :'   | /     ;
+   |       /     :    |/     ;
+   |      /     :'    |      ;
+    \    /      :     |     ;
+     \  /      :'     |     ;
+      \       :'      |    ;
+       \______:_______|___;
+*/
+/* Pour les écrans en dessous de 430px de large*/
+@media only screen and (max-width: 430px){
+    /* HEADER */
+    .background-image h1{
+        font-size: 3rem;
+        line-height: 3rem;
+        letter-spacing: .8rem;
+    }
+    /* PAGE ACCUEIL */
+    #main-homepage h2{
+        font-size: 2rem;
+    }
+    #main-homepage .parklanenf{
+        font-size: 3rem;
+    }
+
+    /* PAGE CHAMBRE */
+    .span-title-chambres{
+        font-size: 2.5rem;
+    }
+
+    #main-rooms h2 .merriweather{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    #main-rooms h2 .upper{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    #main-rooms p{
+        text-align: left;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    #main-hotel h2{
+        font-size: 2rem;
+    }
+    #main-hotel .bloc-texte{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+
+    .social{
+        width: 20rem;
+        height: 11rem;
+    }
+    .social h4{
+        font-size: 2rem;
+    }
+    .social p{
+        font-size: 1.1rem;
+    }
+    .social-icon{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    /* BOUTON AVIS */
+    .bloc-partage{
+        width: 20rem;
+    }
+    /* .bloc-avis p{
+        font-size: 1.2rem;
+    } */
+    .button-avis a{
+        width: 20rem;
+        height: 5rem;
+        font-size: 1rem;
+    }
+    /* PAGE RESERVATION */
+    #main-reservation .header-form{
+        width: 100%;
+    }
+    #main-reservation .header-form p{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: justify;
+    }
+    #main-reservation .form-button-send{
+        width: 20rem;
+        font-size: 1rem;
+    }
+    .header-reservation .main-title h1{
+        font-size: 2rem;
+    }
+}
+
+
+
+/*
+          ___
+       ___)__|_
+  .-*'          '*-,
+ /      /|   |\     \
+;      /_|   |_\     ;
+;   |\           /|  ;
+;   | ''--...--'' |  ;
+ \  ''---.....--''  /
+  ''*-.,_______,.-*' 
+*/
+/* Pour les écrans en dessous de 360px de large*/
+@media only screen and (max-width: 360px){
+
+
+    /* NAV LIST */
+    .nav-list{
+        padding-left: 2rem;
+    }
+    .nav-list-links{
+        font-size: 3rem;
+    }
+    .nav-langue{
+        margin-left: 2rem;
+    }
+
+    /* PAGE RESTAURANT */
+    .header-restaurant .main-title h1{
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+        letter-spacing: .4rem;
+    }
+    #main-restaurant h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    #main-restaurant h2 .parklanenf{
+        font-size: 3.5rem;
+    }
+    #main-restaurant .merriweather{
+        letter-spacing: .2rem;
+    }
+    #main-restaurant .upper{
+        letter-spacing: .3rem;
+    }
+    #main-restaurant .bloc-texte{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #main-restaurant h3{
+        font-size: 1.2rem;
+    }
+    #main-restaurant p{
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+    .button-contact a{
+        width: 20rem;
+        height: 4rem;
+        font-size: .5rem;
+    }
+
+
+}
+
